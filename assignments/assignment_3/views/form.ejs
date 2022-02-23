@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+            margin:50px auto;
+        }
+        div{
+            margin:20px auto;
+        }
+        .submit-btn{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="/user/add" method="POST" >
+        <div class="form">
+            <div>
+                <label>Enter Name: </label>
+                <input name="name" value = "" placeholder="Enter name" size="50"/>
+            </div>
+            <div>
+                <label>Enter Email: </label>
+                <input name="email" value=""placeholder="Enter Email" size="50" /><br/>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="submit"/>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

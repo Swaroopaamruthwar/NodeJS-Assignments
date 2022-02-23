@@ -1,6 +1,6 @@
 const { getNameFromCommandLine, getNameFromEnv } = require("../assignments/assignment_1");
 
-describe('assignment_1', () => {
+describe.only('assignment_1', () => {
     const OLD_ARGV = process.argv;
     const OLD_ENV = process.env;
 
